@@ -11,16 +11,15 @@
     main {
        java {
          java.destinationDirectory.set(file('production'))
-          srcDir 'DunkinDereks/src/dunkin_dereks'
        }
     }
     test {
        java {
          java.destinationDirectory.set(file('production'))
-         srcDir 'DunkinDereks/test'
        }
     }
  }
+
 
  test {
  	useJUnitPlatform()

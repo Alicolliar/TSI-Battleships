@@ -1,9 +1,9 @@
-package battleships
+package battleships;
 
 public class Player {
   private String playerName;
 
-  public Player(newPlayerName) {
+  public Player(String newPlayerName) {
     playerName = newPlayerName;
   }
 
